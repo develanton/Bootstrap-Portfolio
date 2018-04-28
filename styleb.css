@@ -1,0 +1,21 @@
+.navbar-brand{
+    background-color: teal;
+    margin-left: 10%; 
+    color:#fff;
+}
+
+#named{
+    background-color: teal;
+}
+.links{
+    display: inline;
+
+
+}
+.col-3{
+    background-color: rosybrown;
+}
+
+.col-4{
+    background-color: slateblue;
+}
