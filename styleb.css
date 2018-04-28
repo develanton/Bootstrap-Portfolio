@@ -1,21 +1,64 @@
+body{
+    background-image: 
+    url(assets/images/dust_scratches.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 .navbar-brand{
     background-color: teal;
-    margin-left: 10%; 
-    color:#fff;
+    margin-left:10%;
+}
+#navbarSupportedContent{
+    margin-right: 20%;
+}
+p{
+    font-size: large;
+
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #777777;
+    border-top-style: solid;
+    border-color: teal;
+    border-width: 3px;
+    margin: 0%;
+    padding: 2%;
+    position: fixed;
+    bottom:0px;
+    
 }
 
-#named{
+.grid-container {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns:auto auto auto auto;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 920px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin-bottom:    20px;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 220px;
+    margin-left: 20px;
+    position: relative
+}
+.btn{
+    position: absolute;
+    padding:auto;
+    left: 5%;
+    top:70%;
+    width:200px;
+    height: 40px;
+    color:white;
     background-color: teal;
-}
-.links{
-    display: inline;
-
-
-}
-.col-3{
-    background-color: rosybrown;
-}
-
-.col-4{
-    background-color: slateblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
